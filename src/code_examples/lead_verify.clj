@@ -8,7 +8,7 @@
                 :email_address "medjalloh1@yahoo.com",
                 :address.city "Ashland",
                 :address.postal_code "59004",
-                :address.state "MT",
+                :address.state_code "MT",
                 :address.street_line_1 "302 Gorham Ave",
                 :ip_address "108.194.128.165",
                 :api_key (System/getenv "LEAD_VERIFY_API_KEY")}
