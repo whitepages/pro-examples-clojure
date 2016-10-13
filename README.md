@@ -13,5 +13,5 @@ Run examples with lein run by typing
 ```shell
 lein run lead_verify
 lein run identity_check
-lein run caller_identification
+lein run phone_search
 ```
