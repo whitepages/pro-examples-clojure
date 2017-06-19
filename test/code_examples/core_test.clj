@@ -5,9 +5,9 @@
             [code-examples.phone-search :as ps]))
 
 (deftest a-test
-  (testing "Identity check shall return a coll with 8 items"
-    (is (= 8 (count (idc/run-request)))))
-  (testing "Lead verify shall return a coll with 5 items"
-    (is (= 5 (count (lv/run-request)))))
-  (testing "Phone search shall return a coll with 12 items"
-    (is (= 12 (count (ps/run-request))))))
+  (testing "Identity check shall return a coll with 6 items"
+    (is (= 6 (count (idc/run-request)))))
+  (testing "Lead verify shall return a coll with 4 items"
+    (is (= 4 (count (lv/run-request)))))
+  (testing "Phone search shall return a coll with 15 items"
+    (is (= 15 (count (ps/run-request))))))
